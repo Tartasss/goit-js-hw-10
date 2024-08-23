@@ -4,10 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 2</title>
+    <title>Timer</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.9/flatpickr.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css"
+    />
+    <link rel="stylesheet" href="/vanilla-app-template/assets/styles-10c40100.css">
   </head>
   <body>
     <section>
+      <a href="./index.html">Go to home</a>
+    </section>
+
+    <input class="time-input" type="text" id="datetime-picker" />
+    <button class="start-button" type="button" data-start disabled>
+      Start
+    </button>
+
       <input type="text" id="datetime-picker" />
 <button type="button" data-start>Start</button>
 
@@ -29,7 +47,5 @@
     <span class="label">Seconds</span>
   </div>
 </div>
-
-    </section>
   </body>
 </html>
